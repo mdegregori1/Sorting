@@ -31,7 +31,7 @@ def bubble_sort( arr ):
         # again,starting at index 0 and ending at len - 1 
         # one is behind the other 
         # then compare: if arr[y] > arr[y] + 1, then set + 1 equal to #prev
-    for x in range(1, len(arr)):
+    for x in range(len(arr)):
         # ask about top loop
         for y in range(0, len(arr) - 1 ):
             # compare here 
